@@ -1,6 +1,4 @@
-//(function(A, E) {
-var A = window;
-var E = document;
+(function(A, E) {
 var QueryString = function () {
   // This function is anonymous, is executed immediately and 
   // the return value is assigned to QueryString!
@@ -887,4 +885,4 @@ function V(f) {
     setInterval(Ja, 40);
     A.requestAnimationFrame(ma)
   }
-//})(window, document);
+})(window, document);
